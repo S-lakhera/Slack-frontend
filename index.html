@@ -1,62 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack | AI work plateform and productivity tools</title>
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="left">
-                <div class="logo">
-                    <img src="./assets/logo.png" alt="">
-                </div>
-                <ul>
-                    <li>
-                        <p>
-                            Features
-                            <i class="ri-arrow-down-s-line"></i>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Solutions
-                        <i class="ri-arrow-down-s-line"></i>
-                        </p>
-                    </li>
-                    <li>Enterprise</li>
-                    <li><p>
-                        Resources
-                        <i class="ri-arrow-down-s-line"></i>
-                    </p>
-                    </li>
-                    <li>Pricing</li>
-                </ul>
-            </div>
-            <div class="right">
-                <div class="lens">
-                    <i class="ri-search-line"></i>
-                </div>
-                <div id="sign-in">Sign in</div>
-                <div class="btn-outline">Request a Demo</div>
-                <div class="btn-fill">Get Started</div>
-            </div>
-        </nav>
+      <nav>
+        <div class="left">
+          <div class="logo">
+            <img src="./assets/logo.png" alt="" />
+          </div>
+          <ul>
+            <li>
+              <p>
+                Features
+                <i class="ri-arrow-down-s-line"></i>
+              </p>
+            </li>
+            <li>
+              <p>
+                Solutions
+                <i class="ri-arrow-down-s-line"></i>
+              </p>
+            </li>
+            <li>Enterprise</li>
+            <li>
+              <p>
+                Resources
+                <i class="ri-arrow-down-s-line"></i>
+              </p>
+            </li>
+            <li>Pricing</li>
+          </ul>
+        </div>
+        <div class="right">
+          <div class="lens">
+            <i class="ri-search-line"></i>
+          </div>
+          <div id="sign-in nav">Sign in</div>
+          <div class="btn nav-demo-btn">Request a Demo</div>
+          <div class="btn">Get Started</div>
+        </div>
+      </nav>
     </header>
 
-    <body>
+    <main>
+      <section class="hero">
+        <h1>All your people and AI agents working together.</h1>
+        <p>Slack connects your team. Slackbot multiplies what they can do.</p>
+        <div>
+          <button class="btn hero-btn">Get Started</button>
+          <button class="btn hero-btn">
+            Find your subscription <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
 
-    </body>
-</body>
+        <div class="row">
+          <p>Trusted by top teams</p>
+          <img src="./assets/gm.png" alt="" />
+          <img src="./assets/openAI.png" alt="" />
+          <img src="./assets/circle.png" alt="" />
+          <img src="./assets/paramount.png" alt="" />
+          <img src="./assets/stripe.png" alt="" />
+          <img src="./assets/ibm.png" alt="" />
+        </div>
+      </section>
 
+      <section class="hero-video-section">
+        <div class="hero-video">
+          <video src="./assets/hero-video.mp4" autoplay muted loop></video>
+        </div>
+
+        <div class="hero-chips">
+          <div class="chip">Ask Slackbot</div>
+          <div class="chip">Plan Launches</div>
+          <div class="chip">Run Projects</div>
+          <div class="chip">Chat with Clients</div>
+          <div class="chip">Automate tasks</div>
+        </div>
+      </section>
+
+      <section class="reimagine">
+        <div class="re-head">
+          <h2>Reimagine what’s possible with AI and agents.</h2>
+          <p>
+            AI in Slack doesn’t make you think, it helps you do. It summarises
+            and searches based on actual conversations, making every app and
+            agent more helpful and contextually aware than ever.
+          </p>
+        </div>
+
+        <div class="re-content">
+          <ul>
+            <li>Update deals just by asking Slackbot</li>
+            <li>Summarise a conversation you missed</li>
+            <li>Turn on AI note-taking in huddles</li>
+            <li>Review code with GitHub Copilot</li>
+            <li>Look up customer data in Agentforce</li>
+          </ul>
+
+          <div class="re-video">
+            <video autoplay loop muted>
+              <source src="./assets/reimagine.webm" type="video/webm" />
+            </video>
+          </div>
+        </div>
+
+        <div class="overlay"></div>
+      </section>
+
+      <section class="updates">
+        <div class="heading">
+          <h2>What's new in Slack</h2>
+          <a href="#">See all updates <i class="ri-arrow-right-line"></i></a>
+        </div>
+
+        <div class="feature-cards">
+          <div class="card">
+            <img src="./assets/card-1.png" alt="" />
+
+            <div class="badge">NEW FEATURE</div>
+
+            <h3>Partner App MCP</h3>
+            <p>
+              Introducing the open standard that lets Slack AI tap into your
+              existing apps with the power of AI.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/card-2.png" alt="" />
+
+            <div class="badge">NEW FEATURE</div>
+
+            <h3>Automate Salesforce with AI agents in Slack</h3>
+            <p>
+              Build intelligent, custom AI agents that can access and update
+              Salesforce data in real time—without ever leaving Slack.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/card-3.png" alt="" />
+
+            <div class="badge">NEW FEATURE</div>
+
+            <h3>Make your whole team more productive with Slack AI</h3>
+            <p>
+              Slack AI can help your team keep up with the volume of information
+              and decisions that come with fast-paced work.
+            </p>
+            <sub></sub>
+          </div>
+        </div>
+      </section>
+
+      <section class="demo">
+        <div class="demo-box1"></div>
+        <div class="demo-box2"></div>
+      </section>
+    </main>
+  </body>
 </html>
