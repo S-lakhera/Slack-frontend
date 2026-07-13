@@ -31,6 +31,7 @@ A fully responsive and visually appealing clone of the Slack homepage built usin
 Running this project locally is extremely simple since it's a static frontend project.
 
 ### Method 1: Using VS Code Live Server (Recommended)
+
 1. Open the project folder in **Visual Studio Code**.
 2. Install the **Live Server** extension if you haven't already.
 3. Open `index.html` in your editor.
@@ -38,7 +39,9 @@ Running this project locally is extremely simple since it's a static frontend pr
 5. The project will automatically open in your default browser at `http://127.0.0.1:5500/`.
 
 ### Method 2: Using Node.js (npx)
+
 If you have Node.js installed, you can quickly spin up a live server from your terminal:
+
 1. Open your terminal and navigate to the project directory.
 2. Run the following command:
    ```bash
@@ -47,10 +50,12 @@ If you have Node.js installed, you can quickly spin up a live server from your t
 3. Your browser will automatically open and serve the files.
 
 ### Method 3: Direct File Execution
+
 1. Navigate to the project folder on your computer.
-2. Double-click on `index.html` to open it directly in your web browser. *(Note: Some features like auto-reloading won't work in this mode).*
+2. Double-click on `index.html` to open it directly in your web browser. _(Note: Some features like auto-reloading won't work in this mode)._
 
 ## 💡 What's Next?
+
 - Making the layout fully responsive for mobile and tablet devices.
 - Adding a functional navigation sidebar for smaller screens.
 - Implementing JavaScript for interactive components (like carousels or modals).

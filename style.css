@@ -22,6 +22,11 @@ ul {
 
 header{
     width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
 }
 
 nav{
@@ -44,7 +49,7 @@ nav{
 }
 
 .logo img{
-    width: 100%; /*100px*/
+    width: 100%;
 }
 
 ul{
@@ -117,6 +122,12 @@ button{
     border: none;
 }
 
+/* Main tag styling */
+main{
+    padding-top: 80px;
+}
+
+/* Hero section styling */
 .hero{
     display: flex;
     flex-direction: column;
@@ -126,11 +137,12 @@ button{
 }
 
 .hero h1{
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     width: 70%;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 60px;
+    letter-spacing: 3px;
 }
 
 .hero p{
